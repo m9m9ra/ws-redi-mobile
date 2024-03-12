@@ -3,6 +3,7 @@ import {ProfileCard} from "./ProfileCard";
 import {Divider} from "react-native-paper";
 
 export const ProfileSettingsList = () => {
+
     const settingsList = [
         {
             id: 0,

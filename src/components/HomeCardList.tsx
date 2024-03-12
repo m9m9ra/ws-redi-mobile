@@ -1,12 +1,12 @@
 import {StyleSheet, TouchableOpacity, TouchableWithoutFeedback, View} from "react-native";
 import {Icon, Text} from "react-native-paper";
 import {useNavigation} from "@react-navigation/native";
-import {StackGroupParamList} from "../navigation/MainStack";
+import {MainStackParamList} from "../navigation/MainStack";
 import {useEffect, useState} from "react";
 import {colorSchema} from "../utils/colorSchema";
 
 export const HomeCardList = () => {
-    const navigation = useNavigation<StackGroupParamList>();
+    const navigation = useNavigation<MainStackParamList>();
     const [lastTouch, setLastTouch] = useState<number>(3);
 
     useEffect(() => {

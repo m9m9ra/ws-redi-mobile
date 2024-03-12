@@ -4,6 +4,7 @@ import {MainStackParamList} from "../navigation/MainStack";
 import {ComponentProps, useEffect} from "react";
 import {Icon, Text} from "react-native-paper";
 import {colorSchema} from "../utils/colorSchema";
+import {useRootStore} from "../store/RootStore";
 
 interface props {
     title: string,
@@ -14,10 +15,14 @@ interface props {
 }
 
 export const ProfileCard = ({title, icon, label, goRouter, props}: props) => {
+    const {userStore} = useRootStore();
     const navigation = useNavigation<MainStackParamList>();
 
     return (
-        <TouchableWithoutFeedback>
+        <TouchableWithoutFeedback disabled={false}
+                                  onPress={() => {
+                                      icon == `logout` ? userStore.userExit() : false;
+                                  }}>
             <View style={style.profileCard} {...props}>
                 <View style={{flexDirection: `row`, alignItems: `center`, gap: 4}}>
                    <TouchableOpacity children={<Icon size={34}

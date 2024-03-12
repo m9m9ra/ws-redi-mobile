@@ -6,10 +6,18 @@ import {AuthStack} from "./navigation/AuthStack";
 import {observer} from "mobx-react-lite";
 import {useRootStore} from "./store/RootStore";
 import {MainStack} from "./navigation/MainStack";
+import {useEffect} from "react";
 
 export const App = observer((): JSX.Element => {
     const {userStore} = useRootStore();
     const isDarkMode = useColorScheme() === 'dark';
+
+    useEffect(() => {
+        userStore.baseConnect().then(() => {
+            console.log(1);
+            userStore.checkToken().then();
+        });
+    }, []);
 
     const backgroundStyle = {
         backgroundColor: !isDarkMode ? Colors.darker : Colors.lighter,
