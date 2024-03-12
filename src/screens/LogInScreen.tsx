@@ -142,7 +142,6 @@ export const LogInScreen = ({navigation, route}: props) => {
 
 const style= StyleSheet.create({
     container: {
-        flex: 1,
         flexGrow: 1,
         paddingHorizontal: 20,
         paddingTop: 60,

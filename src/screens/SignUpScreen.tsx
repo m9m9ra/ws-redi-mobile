@@ -67,7 +67,6 @@ export const SignUpScreen = ({navigation, route}: props) => {
 
 const style= StyleSheet.create({
     container: {
-        flex: 1,
         flexGrow: 1,
         paddingTop: 60,
         paddingBottom: 90

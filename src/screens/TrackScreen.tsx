@@ -1,8 +1,8 @@
 import {ScrollView} from "react-native";
 import {BottomTabScreenProps} from "@react-navigation/bottom-tabs";
-import {MainStackParamList} from "../navigation/MainStack";
+import {HomeStackParamList} from "../navigation/modules/HomeStack";
 
-type props = BottomTabScreenProps<MainStackParamList, `TrackScreen`>;
+type props = BottomTabScreenProps<HomeStackParamList, `TrackScreen`>;
 export const TrackScreen = ({navigation, route}: props) => {
   return (
       <ScrollView>

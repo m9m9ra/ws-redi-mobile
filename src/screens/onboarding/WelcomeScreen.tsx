@@ -78,7 +78,6 @@ export const WelcomeScreen = ({navigation, route}: props) => {
 
 const style = StyleSheet.create({
     container: {
-        flex: 1,
         flexGrow: 1,
         paddingHorizontal: 21,
         paddingTop: 60,
