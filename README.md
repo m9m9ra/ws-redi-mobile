@@ -4,7 +4,7 @@
 \n
 Разработка велась с использованием последней стабильной версии React Native на момент проекта..</p>
 
-![TEMPLATE APP](https://github.com/)
+![Worldskills 2024](https://github.com/m9m9ra/ws-redi-mobile/blob/main/assets/preview.png)
 
 ## Getting Started
 
