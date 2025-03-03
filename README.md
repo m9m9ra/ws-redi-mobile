@@ -1,8 +1,10 @@
 # [Worldskills 2024](https://pro.firpo.ru/)  mobile developer app 
 
-<p>This project provides an application template using the bloc state management method with Flutter. The project includes user CRUD (Create, Read, Update, Delete) operations and authentication, serving as a realistic example for real-world scenarios. In order to prove that native-looking applications can be developed with Flutter if desired, Cupertino widgets were preferred instead of Material widgets in the user interface of the project.<br>The current latest version of Flutter [3.24.3] was used during the development process.</p>
+<p>Разработка велась с использованием последней стабильной версии React Native на момент проекта.\nЭтот проект представляет собой шаблон чемпионатного приложения, использующий метод управления состоянием Mobx в React Native. Он включает операции CRUD (Создание, Чтение, Обновление, Удаление) для пользователей и аутентификацию, что делает его реалистичным примером для реальных сценариев. Чтобы продемонстрировать, что нативные приложения можно создавать с помощью React Native, в пользовательском интерфейсе проекта использовались компоненты, максимально приближенные к нативным, вместо стандартных компонентов React Native.
+\n
+Разработка велась с использованием последней стабильной версии React Native на момент проекта..</p>
 
-![TEMPLATE APP](https://github.com/enescerrahoglu/template_app_bloc/assets/76053138/89196cba-4119-48fb-a1c3-8b32e712da73)
+![TEMPLATE APP](https://github.com/)
 
 ## Getting Started
 
